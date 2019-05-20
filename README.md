@@ -23,8 +23,8 @@ Geocode.setApiKey( "AIzaSyCz_mSXsN4QvyHjaw1viz_ccgWTrIuWuslZ8" );
 
 ## Installation Instructions :wrench:
 
-1. Clone the repo using `git clone https://github.com/imranhsayed/file-uploads-aws-react-node`
-2. `cd file-uploads-aws-react-node`
+1. Clone the repo using `git clone https://github.com/imranhsayed/google-maps-in-react`
+2. `cd google-maps-in-react`
 3. `npm install`
 4. `cd client`
 5. `npm install`
