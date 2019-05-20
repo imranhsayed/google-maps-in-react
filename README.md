@@ -5,7 +5,7 @@
 
 ![](google-maps-image.jpg)
 
-## Autocomplete Location Search :video_camera:
+## Autocomplete Location Search Demo :video_camera:
 ![](google-maps.gif)
 
 
