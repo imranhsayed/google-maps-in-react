@@ -47,8 +47,7 @@ Geocode.setApiKey( "AIzaSyCz_mSXsN4QvyHjaw1viz_ccgWTrIuWuslZ8" );
 
 ## Useful Links :link:
 
-* [Create AWS Bucket Blog](https://codeytek.com/how-to-create-a-user-and-bucket-amazon-web-services-aws/)
-* [File Upload on AWS Blog](https://codeytek.com/file-or-image-uploads-on-amazon-web-services-aws-using-react-node-and-express-js-aws-sdk/)
+* [Autocomplete Location Search Blog](https://codeytek.com/google-maps-in-react-autocomplete-location-search-draggable-marker-marker-infobox/)
 
 ## License
 
