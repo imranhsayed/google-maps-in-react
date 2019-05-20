@@ -17,7 +17,7 @@ You can also watch tutorial to [Get API Key](https://www.youtube.com/watch?v=yhh
 2. Add your Google Maps Key `./client/src/components/Map.js`
 
 ``` ruby
-Geocode.setApiKey( "AIzaSyCz_mSXsN4QvyHjaw1viz_ccgWTrIuWuslZ8" );
+Geocode.setApiKey( "xxxxxxxxxx" );
 
 ```
 
