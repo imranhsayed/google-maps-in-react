@@ -3,23 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.18.0",
-    "classnames": "^2.2.6",
-    "jquery": "^3.3.1",
-    "prop-types": "^15.6.2",
-    "qs": "^6.5.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-geocode": "^0.1.2",
-    "react-google-autocomplete": "^1.0.18",
+    "react-google-autocomplete": "^1.1.0",
     "react-google-maps": "^9.4.5",
-    "react-redux": "^5.0.7",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.4",
-    "redux": "^4.0.0",
-    "redux-thunk": "^2.3.0"
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1"
   },
-  "proxy": "http://localhost:5000",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -29,10 +20,16 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

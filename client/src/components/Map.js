@@ -31,10 +31,10 @@ class Map extends Component{
 		Geocode.fromLatLng( this.state.mapPosition.lat , this.state.mapPosition.lng ).then(
 			response => {
 				const address = response.results[0].formatted_address,
-					addressArray =  response.results[0].address_components,
-					city = this.getCity( addressArray ),
-					area = this.getArea( addressArray ),
-					state = this.getState( addressArray );
+				      addressArray =  response.results[0].address_components,
+				      city = this.getCity( addressArray ),
+				      area = this.getArea( addressArray ),
+				      state = this.getState( addressArray );
 
 				console.log( 'city', city, area, state );
 
@@ -146,15 +146,15 @@ class Map extends Component{
 	 */
 	onMarkerDragEnd = ( event ) => {
 		let newLat = event.latLng.lat(),
-			newLng = event.latLng.lng();
+		    newLng = event.latLng.lng();
 
 		Geocode.fromLatLng( newLat , newLng ).then(
 			response => {
 				const address = response.results[0].formatted_address,
-					addressArray =  response.results[0].address_components,
-					city = this.getCity( addressArray ),
-					area = this.getArea( addressArray ),
-					state = this.getState( addressArray );
+				      addressArray =  response.results[0].address_components,
+				      city = this.getCity( addressArray ),
+				      area = this.getArea( addressArray ),
+				      state = this.getState( addressArray );
 				this.setState( {
 					address: ( address ) ? address : '',
 					area: ( area ) ? area : '',
@@ -175,12 +175,12 @@ class Map extends Component{
 	onPlaceSelected = ( place ) => {
 		console.log( 'plc', place );
 		const address = place.formatted_address,
-			addressArray =  place.address_components,
-			city = this.getCity( addressArray ),
-			area = this.getArea( addressArray ),
-			state = this.getState( addressArray ),
-			latValue = place.geometry.location.lat(),
-			lngValue = place.geometry.location.lng();
+		      addressArray =  place.address_components,
+		      city = this.getCity( addressArray ),
+		      area = this.getArea( addressArray ),
+		      state = this.getState( addressArray ),
+		      latValue = place.geometry.location.lat(),
+		      lngValue = place.geometry.location.lng();
 		// Set these values in the state.
 		this.setState({
 			address: ( address ) ? address : '',
