@@ -1,7 +1,7 @@
 # Google Maps in React: Autocomplete Location Search | Draggable Marker | Marker Infobox
 
 ## Description :clipboard:
-> Demo App for Autocomplete Location Search, Draggable marker and Infobox using Google Maps API and React 
+> Demo App for Autocomplete Location Search, Draggable marker and Infobox using Google Maps API and React .
 
 ![](google-maps-image.jpg)
 
