@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withGoogleMap, GoogleMap, withScriptjs, InfoWindow, Marker } from "react-google-maps";
 import Geocode from "react-geocode";
 import Autocomplete from 'react-google-autocomplete';
-Geocode.setApiKey( "xxxxxxxxxx" );
+Geocode.setApiKey( "AIzaSyDgi0yfFwjMIqw3BAnjBDETa68ra3ZGzOk" );
 Geocode.enableDebug();
 
 class Map extends Component{
@@ -159,7 +159,15 @@ class Map extends Component{
 					address: ( address ) ? address : '',
 					area: ( area ) ? area : '',
 					city: ( city ) ? city : '',
-					state: ( state ) ? state : ''
+					state: ( state ) ? state : '',
+					markerPosition: {
+						lat: newLat,
+						lng: newLng
+					},
+					mapPosition: {
+						lat: newLat,
+						lng: newLng
+					},
 				} )
 			},
 			error => {
