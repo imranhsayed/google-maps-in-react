@@ -6,6 +6,8 @@ Geocode.setApiKey( "xxxxxx" );
 Geocode.enableDebug();
 
 class Map extends Component{
+	
+	const googleMapsApiKey = "AIzaSyDGe5vjL8wBmilLzoJ0jNIwe9SAuH2xS_0"
 
 	constructor( props ){
 		super( props );
@@ -271,7 +273,7 @@ class Map extends Component{
 				</div>
 
 				<AsyncMap
-					googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGe5vjL8wBmilLzoJ0jNIwe9SAuH2xS_0&libraries=places"
+					googleMapURL="https://maps.googleapis.com/maps/api/js?key=" + googleMapsApiKey + "&libraries=places"
 					loadingElement={
 						<div style={{ height: `100%` }} />
 					}
