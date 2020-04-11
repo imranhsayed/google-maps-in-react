@@ -20,7 +20,7 @@
     "concurrently": "^4.0.1",
     "cors": "^2.8.5",
     "express": "^4.16.3",
-    "mongoose": "^5.3.1",
+    "mongoose": "^5.7.5",
     "path": "^0.12.7",
     "validator": "^10.8.0"
   }
