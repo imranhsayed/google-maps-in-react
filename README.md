@@ -18,10 +18,10 @@ Please follow me 🙏 on [twitter](https://twitter.com/imranhsayed) and github
 
 1. Get your API Key from [developers.google.com](https://developers.google.com/maps/documentation/javascript/get-api-key).
 You can also watch tutorial to [Get API Key](https://www.youtube.com/watch?v=yhhkNtdg5x0&feature=youtu.be)
-2. Add your Google Maps Key `./client/src/components/Map.js`
+2. Add your Google Maps Key in `./client/src/client-config.js`
 
 ``` ruby
-Geocode.setApiKey( "xxxxxxxxxx" );
+GoogleMapsAPI = 'xxxxx';
 
 ```
 
