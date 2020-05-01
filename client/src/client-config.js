@@ -1,1 +1,1 @@
-export const GoogleMapsAPI = 'xxxxx';
+export const GoogleMapsAPI = 'xxxx';

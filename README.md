@@ -13,6 +13,8 @@ Please follow me 🙏 on [twitter](https://twitter.com/imranhsayed) and github
 ![](google-maps.gif)
 
 
+## Drag the marker
+![](Drag-marker.gif)
 
 ## Use :point_right:
 
