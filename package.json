@@ -22,6 +22,6 @@
     "express": "^4.16.3",
     "mongoose": "^5.7.5",
     "path": "^0.12.7",
-    "validator": "^10.8.0"
+    "validator": "^13.7.0"
   }
 }
