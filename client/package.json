@@ -9,7 +9,7 @@
     "react-google-autocomplete": "^1.1.0",
     "react-google-maps": "^9.4.5",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
